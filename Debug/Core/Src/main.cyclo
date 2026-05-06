@@ -1,0 +1,24 @@
+../Core/Inc/uart.h:24:6:void USART3_init()	1
+../Core/Inc/uart.h:61:9:uint8_t USART3_read()	2
+../Core/Inc/uart.h:72:6:void delayMs(int)	3
+../Core/Inc/buzzer.h:3:6:void BUZZER_Init()	1
+../Core/Inc/buzzer.h:10:6:void delay_ms(uint32_t)	2
+../Core/Inc/buzzer.h:17:6:void missing_buzzer()	2
+../Core/Inc/buzzer.h:32:6:void glitch_buzzer()	2
+../Core/Inc/buzzer.h:47:6:void jam_buzzer()	2
+../Core/Src/main.cpp:154:6:void TIMER_Init()	1
+../Core/Src/main.cpp:186:6:void GPIO_Init()	1
+../Core/Src/main.cpp:282:10:uint32_t unload()	0
+../Core/Src/main.cpp:286:13:void WeighingTask(void*)	5
+../Core/Src/main.cpp:349:13:void SensorTask(void*)	17
+../Core/Src/main.cpp:438:13:void TrackingTask(void*)	4
+../Core/Src/main.cpp:465:13:void ControlTask(void*)	10
+../Core/Src/main.cpp:537:13:void ActuatorTask(void*)	5
+../Core/Src/main.cpp:577:13:void DisplayTask(void*)	1
+../Core/Src/main.cpp:624:13:void SafetyTask(void*)	4
+../Core/Src/main.cpp:663:13:void UartTask(void*)	1
+../Core/Src/main.cpp:680:5:int main()	9
+../Core/Src/main.cpp:780:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	2
+../Core/Src/main.cpp:797:6:void Error_Handler()	1
+../Core/Src/main.cpp:803:1:void __static_initialization_and_destruction_0()	1
+../Core/Src/main.cpp:803:1:cpp)	1
